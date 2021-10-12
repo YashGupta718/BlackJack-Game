@@ -55,3 +55,8 @@ table{
     margin: 10px auto;
     padding: 2px;
 }
+
+#your-box img, #dealer-box img{
+    height: 130px;
+    margin: 7px;
+}
