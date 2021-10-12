@@ -1,0 +1,57 @@
+.container1{
+    width: 75%;
+    /* border: 1px solid green; */
+    margin: 10px auto;
+    /* align-content: center; */
+    text-align: center;
+}
+
+.flex-blackjack-row1, .flex-blackjack-row2, .flex-blackjack-row3{
+    /* border: 1px solid green;  */
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.flex-blackjack-row2{
+    border: 1px solid green;
+}
+
+.flex-blackjack-row1, .flex-blackjack-row2{
+    background: url(https://media.istockphoto.com/photos/green-poker-background-picture-id453187915?k=20&m=453187915&s=612x612&w=0&h=yDGWRSaErS7B6MPaJ8g9PyaH0JqwGk4IfwnKpnsNYEQ=)bottom ;  
+    /* image for row1 is completely fit so there is no need for center or bottom....however for row2 to show the continuity of image it is better to use bottom */
+    color: #ffffff;
+    /* height: 350px; */
+}
+
+.flex-blackjack-row1{
+    height: 350px;
+    /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+}
+
+button{
+    box-shadow: 0px 5px 20px rgba(6, 8, 10, 2);
+}
+
+#your-box, #dealer-box{
+    /* border: 1px dashed green; */
+    aspect-ratio: 1;
+    flex: 1;
+}
+
+table th,table td {
+    border: 1px solid rgb(94, 221, 83);
+    padding: 4px;
+    color:rgb(66, 65, 65);
+}
+
+h3{
+    color: gray;
+}
+
+table{
+    margin: 10px auto;
+    padding: 2px;
+}
