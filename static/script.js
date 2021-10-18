@@ -55,11 +55,13 @@ function updateScore(card, activePlayer){
     }
     else{
         tempScore = blackjackGame['cardMap'][card];
-        
+    
     }
-    activePlayer['score'] += tempScore;
-    if(activePlayer['score'] > 21)
+    // activePlayer['score'] += tempScore;
+    if(activePlayer['score'] + tempScore > 21)
         activePlayer['isBurst'] = true;
+    else
+        activePlayer['score'] += tempScore;    
     console.log(activePlayer['score']);
 }
 
